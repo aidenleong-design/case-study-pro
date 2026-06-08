@@ -1,8 +1,8 @@
 # Case Study Pro
 
-A portfolio coaching skill for designers and design engineers. It interviews you
-about real work, picks a narrative shape that fits the story, and writes an
-honest, specific case study — as markdown, slides, or portfolio-wide guidance.
+A portfolio coaching and creation skill for designers and design engineers. It guides you through a case study,
+asking about real work, picks a narrative shape that fits the story, and writes an
+honest, specific case study as markdown, slides, or portfolio-wide guidance.
 
 It combines two excellent MIT-licensed skills into one: the *coaching brain* of
 [scoobynko/case-study-skill](https://github.com/scoobynko/case-study-skill) and
@@ -46,6 +46,10 @@ ln -s "$(pwd)/case-study-pro" ~/.claude/skills/case-study-pro
 ```
 Then start a new Claude Code session and try: *"Help me write a case study for my
 checkout redesign project."*
+
+## Things to Note
+Read hiring-rubric.md and change it with any research you have for your career path.
+Understanding what hiring managers look for and how they assess candidates is key.
 
 ## License
 MIT. Derived from two MIT-licensed works — both upstream notices are preserved in
