@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Generated case studies (don't commit your own portfolio drafts into the skill)
+case-study-*.md
