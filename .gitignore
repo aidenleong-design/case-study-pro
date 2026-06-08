@@ -6,5 +6,9 @@
 .idea/
 *.swp
 
+# Node
+node_modules/
+*.tgz
+
 # Generated case studies (don't commit your own portfolio drafts into the skill)
 case-study-*.md

@@ -1,0 +1,37 @@
+{
+  "name": "case-study-pro",
+  "version": "1.0.0",
+  "description": "Installer for the Case Study Pro Claude Code skill — coaches designers and design engineers through portfolio-ready case studies.",
+  "bin": {
+    "case-study-pro": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "references/",
+    "templates/",
+    "CREDITS.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-skill",
+    "skill",
+    "case-study",
+    "portfolio",
+    "design",
+    "ux"
+  ],
+  "author": "Aiden Leong <hello@aileong.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidenleong-design/case-study-pro.git"
+  },
+  "homepage": "https://github.com/aidenleong-design/case-study-pro#readme",
+  "engines": {
+    "node": ">=16.7.0"
+  }
+}

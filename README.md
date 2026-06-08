@@ -37,13 +37,29 @@ case-study-pro/
 └── LICENSE
 ```
 
-## Install (personal skill)
-Copy or symlink this folder into your Claude Code skills directory:
+## Install
+
+### Quickest — `npx` (no clone needed)
+Run this from inside a project to add the skill to that project's
+`.claude/skills/`:
+```bash
+npx github:aidenleong-design/case-study-pro
+```
+Install it for **every** project instead (into `~/.claude/skills/`):
+```bash
+npx github:aidenleong-design/case-study-pro --global
+```
+Use `--force` to overwrite an existing install. Requires Node 16.7+.
+
+> Once this is published to npm, the command shortens to `npx case-study-pro`.
+
+### Manual — copy or symlink
 ```bash
 cp -r case-study-pro ~/.claude/skills/case-study-pro
 # or, to keep developing it here and have Claude use it live:
 ln -s "$(pwd)/case-study-pro" ~/.claude/skills/case-study-pro
 ```
+
 Then start a new Claude Code session and try: *"Help me write a case study for my
 checkout redesign project."*
 
